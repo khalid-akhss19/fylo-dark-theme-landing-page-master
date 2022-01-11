@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(218, 29%, 24%);
+    font-size: 14px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+.overall{
+    margin: 25px;
+}
+.topnav a {
+    float: left;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .topnav a:hover {
+    color:white;
+    text-decoration: underline;
+  }
+  .topnav-right {
+    float: right;
+  }
+  .file-secure{
+      text-align: center;
+      color: white;
+      font-size: xx-large;
+      padding-top: 20px;
+  }
+  
+  .image-illustr{
+      padding-top: 40px;
+      display: block;
+      margin: 0 auto;
+  }
+  .para-securefile{
+      text-align: center;
+      color: rgb(160, 160, 160);
+      font-size: 20px;
+      padding-top: 20px;
+      
+  }
+  .butne{
+    padding-top: 30px;
+    text-align: center;
+  }
+  .button {
+      border: none;
+      padding: 16px 60px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+    }
+    
+    .button1 {
+      background-color: hsl(198, 60%, 50%); 
+      color: white; 
+      border: 2px solid hsl(198, 60%, 50%);
+      border-radius: 30px;
+    }
+    
+    .button1:hover {
+      background-color: hsl(176, 68%, 64%);
+      color: black;
+      border-radius: 30px;
+    }
+    /*cardtype */
+  .cardtype{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    justify-content: space-evenly;
+  }
+  .card-img{
+    height: 70px;
+  }
+  .one{
+    text-align: center;
+  }
+  .two{
+    text-align: center;
+  }
+  
+  .card-heading{
+    padding-top: 20px;
+    color: rgb(168, 166, 166);
+  }
+  .card-para{
+    padding-top: 20px;
+    color: rgb(212, 203, 203);
+    font-size: 20;
+  }
+  .productive{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .rproductive-heading{
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    font-size: xx-large;
+    padding-top: 100px;
+  }
+  .para-productive{
+    text-align: center;
+    color: gray;
+    padding-top: 15px;
+    font-size: 20px;
+  }
+  .right-productive{
+      width: 800px;
+  }
+  .link-bitton{
+    color:hsl(176, 68%, 64%);
+  }
+  .link-bitton:hover{
+    color:grey;
+  }
+  .alink{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left:73px ;
+  }
+  .card-fylo{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .cardone{
+    background-color: hsl(219, 30%, 18%);
+    width: 31vw;
+    border-radius: 10px;
+    justify-content: space-between;
+  }
+  .card-para{
+    text-align: center;
+    font-size: 17px;
+    margin: 10px;
+  }
+
+  .imgeprof{
+    border-radius:100px ;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  }
+  .prof-heading{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+  .twooo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    color:gray;
+  }
+  .profall{
+    display: flex;
+    flex-direction: row;
+  }
+  .subcsribe{
+    background-color: hsl(219, 30%, 18%);
+    width: 55vw;
+    border-radius: 10px;
+    margin-left: 24rem;
+
+  }
+  .subscribein{
+    text-align: center;
+  }
+  .subcsribe-heading{
+    
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    font-size: x-large;
+  }
+  .subcsribe-para{
+
+    padding: 20px;
+    color: rgb(168, 163, 163);
+    font-size: 17px;
+  }
+
+  .button12 {
+      border: none;
+      padding: 16px 60px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+    }
+    
+    .button111 {
+      background-color: hsl(198, 60%, 50%); 
+      color: white; 
+      border: 2px solid hsl(198, 60%, 50%);
+      border-radius: 30px;
+    }
+    
+    .button111:hover {
+      background-color: hsl(176, 68%, 64%);
+      color: black;
+      border-radius: 30px;
+    }
+    .input-subscribe{
+      padding: 20px;
+      border-radius: 40px;
+      border-style: none;
+      width: 450px;
+    }
+    .inersubscribe{
+      display: flex;
+      flex-direction: row;
+      margin-left: 80px;
+      padding: 20px;
+      
+    }
+    .footer1{
+      background-color: hsl(216, 53%, 9%);
+      color: white;
+    }
+    .footer-onelogo{
+      margin-left: 25px;
+      padding-top: 20px;
+    }
+    .footer{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .foter-img{
+      padding: 20px;
+    }
+    .footer-one{
+      padding: 25px;
+    }
+    .footer-two-img{
+      width: 25px;
+      height: 25px;
+    }
+    .footronepar{
+      font-size: 17px;
+    }
+    .footer-twonum{
+      margin-left: 10px;
+    }
+    .foota{
+      display: flex;
+      flex-direction: row;
+      
+    }
+    .footer-two{
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+    }
+    .footaa{
+      display: flex;
+      flex-direction: row;
+      
+    }
+    .footer-two-imga{
+      width: 25px;
+      height: 25px;
+    }
+    .footer-twonuma{
+      margin-left: 30px;
+    }
+    .a-space{
+      padding-top: 15px;
+    }
+    .footer-one{
+      display: flex;
+    }
+    .aa-space{
+      margin-left: 20px;
+    }
+
+    /*  social*/
+    .social {
+      display: flex;
+      justify-content: center;
+    }
+    .top-pad {
+      padding-top: 40px;
+    }
+
+    
+  
+
+
+
+
+
+
+
+
+
+
+    /* nnddkd/////////// jdjjdjjjdjd*/ 
+    .footr-l{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 70px;
+    }
+    .social{
+      display: flex;
+    }
+    .cc{
+      padding: 10px;
+    }
+    .top-pad{
+      padding-top: 40px;
+      justify-content: space-around;
+    }
+    a{
+      text-decoration:none;
+      color: black;
+      padding: 10px;
+      margin: 10px;
+      line-height: 2em;
+    }
+    
+    .s-icon{
+      margin-left: 100px;
+
+    }
+    .s-policy{
+      margin-left: 100px;
+    }
+
+    
+@media only screen and (max-width: 627) {
+   .topnav{
+     width: 100%;
+   }
+}
+
